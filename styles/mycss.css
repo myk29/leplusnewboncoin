@@ -1,0 +1,245 @@
+#logo{
+    float:left;
+}
+
+header{
+    height:180px;
+}
+
+#formLogin{
+    float:right;
+}
+
+nav{
+    display:inline-block;
+    margin-top:85px;
+    margin-left:150px;
+
+}
+nav ul {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+
+nav li {
+
+    display : inline;
+    width:200px;
+    background-color:#FF6600;
+    color:black;
+
+    text-align:center;
+    padding:1px;
+    border:0px ;
+}
+
+.menu li a{
+    color:#FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    text-decoration: none;
+    color:green;
+}
+section{
+    width:75%;
+}
+
+
+#asideHome section{
+    width:20%;
+    float:right;
+    border:1px solid #FF6600;
+    clear:both;
+
+}
+
+#asideHome h2{
+    background-color:#FF6600;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0;
+    padding : 2px
+}
+
+.photo_une{
+    padding:14px;
+    text-align: center;
+    display: block;
+}
+.description_une{
+    text-align:center;
+    font-size: 14px;
+    color:#333366;
+
+}
+.prix_une{
+    text-align:center;
+    font-size: 18px;
+    color:#333366;
+}
+
+section#info article {
+    border:1px solid #FF6600;
+    border-radius: 10px;
+    margin: 10px;
+    padding:10px;
+    min-height: 160px;
+}
+
+ section#info a{
+   text-decoration:none;    
+ }
+.photo{
+    float:left;
+    margin-right: 3pt;
+    max-width: 250px;
+    max-height: 150px;
+
+}
+
+.prix{
+
+    border-radius: 10px;
+    box-shadow :6px 3px 12px #787878;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    background-color: beige;
+    float:right;
+}
+.description :first-child {
+    font-size: 18px;
+    padding-left: 15px;
+    color:#A49D95;
+}
+
+#info{
+    clear:left;
+    margin-top: 75px;
+}
+#rechercheForm{
+    margin:auto;
+    text-align:center;
+    width:50%
+}
+input[type=submit] {
+    width:100px;
+    margin-top:10px;
+    margin-left:5px;
+    box-shadow:3px 3px 12px #FF6600;
+    cursor:pointer;
+    color:#FFFFFF;
+    background-color:#A49D95;
+}
+datalist{
+    display:none;
+}
+
+input[type=submit]:hover{
+    background-color:green;
+}
+
+input[type=submit]:active{
+    background-color:red;
+}
+
+footer{
+    clear:both;
+}
+
+@media screen and (max-width:550px) {
+    nav{
+        display:block;
+        clear:both;
+        padding-top: 15px;
+        margin-left: 15px;
+    }
+    nav li {
+        display : block;
+        width:auto;
+        background-color:transparent;
+        color:black;
+        text-decoration:none;
+        text-align:left;
+        padding:2px;
+        border:none;
+    }
+
+    nav ul {
+        list-style-type:circle;
+    }
+    #logo {
+        width:25%;height:25%;
+    }
+    aside  {
+        display:none;
+    }
+    section{
+        width:95%;
+        margin-left:auto;
+    }
+    #rechercheForm {
+        width: 95%;
+    }
+    fieldset *{
+        display:block;
+        margin-bottom:5pt
+    }
+
+    .description :first-child {
+        font-size: 14px;
+    }
+    datalist{
+        display:none;
+    }
+    .menu li a{
+        color:#000000;
+        font-size: 16px;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #asideHome{
+        width: 100%;
+        margin-top:15px
+    }
+    #asideHome section {
+        width: 95%;
+        float: none;
+        margin-left:auto;
+    }
+    section{
+        width:95%;
+        margin-left:auto;
+    }
+    nav {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    #logo {
+        float:none;
+    }
+    #rechercheForm {
+        margin: auto;
+        width: 95%;
+    }
+    section {
+        width: 100%;
+        margin: auto;
+    }
+    fieldset *{
+        display:block;
+        margin-bottom:5pt
+    }
+    datalist{
+        display:none;
+    }
+
+}

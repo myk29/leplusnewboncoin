@@ -1,0 +1,32 @@
+
+
+
+#info {
+    clear: left;
+    margin-top: 0px;
+}
+
+section{
+		width:95%;	
+
+}
+
+#depot div{
+		
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:5pt;
+		text-align:center;
+}
+
+
+
+label{
+	display: block;
+    width: 150px;
+    float: left;
+}
+
+#depot input:last-child{
+	    float: right;
+}
